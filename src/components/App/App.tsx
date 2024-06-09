@@ -16,7 +16,7 @@ interface FilterRequestResponse {
 }
 
 const fetchFilters = async (): Promise<FilterRequestResponse> => {
-	const response = await fetch('/dist/temp/filterData.json')
+	const response = await fetch('/temp/filterData.json')
 	return response.json()
 }
 
