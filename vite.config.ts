@@ -18,7 +18,11 @@ export default defineConfig(() => ({
 			'@store': path.resolve(__dirname, './src/store'),
 			'@temp': path.resolve(__dirname, './src/temp'),
 			'@utils': path.resolve(__dirname, './src/utils'),
-			'@': path.resolve(__dirname, './src')
+			'@': path.resolve(__dirname, './src'),
+			'@chakra-ui/theme': path.resolve(
+				__dirname,
+				'node_modules/@chakra-ui/theme'
+			)
 		}
 	},
 	plugins: [

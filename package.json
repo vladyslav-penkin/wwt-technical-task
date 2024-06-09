@@ -19,9 +19,10 @@
 	"dependencies": {
 		"@chakra-ui/anatomy": "^2.2.1",
 		"@chakra-ui/react": "^2.8.1",
+		"@chakra-ui/theme": "^3.3.1",
 		"@emotion/react": "^11.11.1",
 		"@emotion/styled": "^11.11.0",
-		"@tanstack/react-query": "^5.17.19",
+		"@tanstack/react-query": "^5.40.0",
 		"@tanstack/react-table": "^8.10.6",
 		"@uselessdev/datepicker": "^2.7.0",
 		"chakra-react-select": "^4.7.5",
@@ -40,7 +41,6 @@
 		"react-router-dom": "^6.17.0",
 		"react-select": "^5.7.7",
 		"swiper": "^11.0.3",
-		"vite-tsconfig-paths": "^4.2.1",
 		"zustand": "^4.4.7"
 	},
 	"devDependencies": {
@@ -68,10 +68,11 @@
 		"jsdom": "^23.2.0",
 		"lint-staged": "^15.0.1",
 		"prettier": "^3.0.3",
-		"typescript": "^5.0.2",
+		"typescript": "^5.4.5",
 		"vite": "^4.4.5",
-		"vite-plugin-svgr": "^4.1.0",
-		"vitest": "^1.2.1"
+		"vite-plugin-svgr": "^4.2.0",
+		"vite-tsconfig-paths": "^4.3.2",
+		"vitest": "^1.6.0"
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": [
